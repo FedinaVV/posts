@@ -1,10 +1,9 @@
 <template>
-  <div class="v-post col-xl-3 col-lg-4 col-md-4 col-sm-6">
+  <div class="v-post col-xl-3 col-lg-4 col-md-4 col-sm-10 col-xs-10">
     <div class="v-post__title">{{ post.title }}</div>
     <div class="v-post__body">{{ post.body }}</div>
     <div class="v-post__author">{{ post.userName }}</div>
   </div>
-
 </template>
 
 <script>
